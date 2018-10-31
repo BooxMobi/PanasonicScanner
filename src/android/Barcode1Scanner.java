@@ -1,4 +1,4 @@
-package PanasonicScanner;
+package Barcode1Scanner;
 
 import android.os.AsyncTask;
 
@@ -29,11 +29,11 @@ import java.util.concurrent.TimeoutException;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class PanasonicScanner extends CordovaPlugin  implements BarcodeListener, ToughpadApiListener{
+public class Barcode1Scanner extends CordovaPlugin  implements BarcodeListener, ToughpadApiListener{
 
     public static final String ARG_ITEM_ID = "item_id";
     public static final String ACTION_ITEM_ID = ARG_ITEM_ID;
-    public static final String TAG = "SCANNER.PANASONIC";
+    public static final String TAG = "SCANNER.BARCODE1";
     private CallbackContext callbackContextReference;
     private String message = "";
 	
